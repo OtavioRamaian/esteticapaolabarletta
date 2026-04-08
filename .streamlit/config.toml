@@ -1,0 +1,23 @@
+[theme]
+# Cor primária do sistema (usada em botões ativos, sliders, e destaques)
+# Usando o rosa suave da identidade da Estética Paola Barletta
+primaryColor = "#E69AA8"
+
+# Cor de fundo principal da aplicação (deixando branco para um visual limpo)
+backgroundColor = "#FFFFFF"
+
+# Cor de fundo secundária (usada na barra lateral e em fundos de inputs)
+# Um tom de rosa extremamente claro para dar contraste sem pesar
+secondaryBackgroundColor = "#FFF0F3"
+
+# Cor do texto principal do sistema (um cinza escuro é melhor para leitura que o preto puro)
+textColor = "#333333"
+
+# Fonte padrão do sistema
+font = "sans serif"
+
+[server]
+# Remove o botão de menu (hambúrguer) padrão do Streamlit no canto superior direito
+# e o rodapé "Made with Streamlit", deixando o sistema com cara de um software próprio.
+headless = true
+port = 8501
